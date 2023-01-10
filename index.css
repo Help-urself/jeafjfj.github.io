@@ -26,14 +26,36 @@
   float: right;
 }
 
+.all_commands{
+  cursor:grab;
+  background-color: white;
+  color : black;
+  width: 100%;
+  border-radius: 40px;
+  border: none !important;
+
+    outline: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+  
+
+.active, .all_commands:hover {
+background-color: #4e8d8d; 
+color : white;
+}
+
 .commandmenu{
-  position: sticky;
-  position: -webkit-sticky;
-    background-color: #eee;
+  -webkit-box-shadow:0px 0px 50px 30px #7fd1d1;
+  -moz-box-shadow:0px 0px 50px 30px #7fd1d1 ;
+  box-shadow:0px 0px 50px 30px #7fd1d1 ;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
     color: #444;
-    cursor: pointer;
+    cursor:pointer;
     padding: 18px;
-    width: 45%;
+    width: 60%;
     border: none;
     border-radius: 10px 10px 0px 0px; 
     text-align: left;
@@ -42,11 +64,11 @@
     transition: 0.4s;
     border-radius: 10px;
     top:0;
+    overflow-x:hidden;
   
 }
 
 .mainleft {
-  //border: 1px solid red;
   width: 25%;
   display: inline-block;
   vertical-align: top;
@@ -67,12 +89,14 @@
 
 
 .b {
-  -webkit-box-shadow:0px 0px 50px 30px #ff0000 ;
-  -moz-box-shadow:0px 0px 50px 30px #ff0000 ;
-  box-shadow:0px 0px 50px 30px #ff0000 ;
+  -webkit-box-shadow:0px 0px 50px 30px green;
+  -moz-box-shadow:0px 0px 50px 30px green ;
+  box-shadow:0px 0px 50px 30px green ;
 }
 
 .accordion {
+  cursor:grab;
+  
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -83,10 +107,11 @@
   text-align: left;
   outline: none;
   font-size: 15px;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .active, .accordion:hover {
+  cursor:grab;
   background-color: rgb(48, 48, 81); 
   color : white;
 }
@@ -97,6 +122,7 @@
   padding: 5px 15px;
   display: inline-block;
   border-radius: 10px;
+  
 
 }
 
@@ -122,3 +148,4 @@
   display: inline-block;
   border-radius: 10px;
 }
+

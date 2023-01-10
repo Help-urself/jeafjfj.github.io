@@ -89,9 +89,9 @@ color : white;
 
 
 .b {
-  -webkit-box-shadow:0px 0px 50px 30px green;
-  -moz-box-shadow:0px 0px 50px 30px green ;
-  box-shadow:0px 0px 50px 30px green ;
+  -webkit-box-shadow:0px 0px 50px 30px red;
+  -moz-box-shadow:0px 0px 50px 30px red ;
+  box-shadow:0px 0px 50px 30px red;
 }
 
 .accordion {
